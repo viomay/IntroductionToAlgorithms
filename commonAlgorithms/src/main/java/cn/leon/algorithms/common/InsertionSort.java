@@ -1,8 +1,11 @@
 package cn.leon.algorithms.common;
 
 /**
- * 插入排序
+ * 插入排序（稳定）
  * 类比：扑克游戏，抓牌，按照顺序插入手牌
+ * 最好时间：O(n)
+ * 平均时间：O(n²)
+ * 最坏时间：O(n²)
  * @author leon
  */
 public class InsertionSort {
