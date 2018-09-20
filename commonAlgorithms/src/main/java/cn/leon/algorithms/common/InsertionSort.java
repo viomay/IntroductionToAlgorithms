@@ -10,9 +10,9 @@ package cn.leon.algorithms.common;
  */
 public class InsertionSort {
 
-    public static int[] insertionSort(int[] arr) {
+    private static int[] insertionSort(int[] arr) {
         int temp;
-        int j = 0;
+        int j;
         for (int i = 0; i < arr.length; i++) {
             temp = arr[i];
             j = i - 1;
